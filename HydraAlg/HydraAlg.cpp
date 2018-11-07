@@ -28,21 +28,6 @@ void dsu_unite(int a, int b, vector<int> &p)
 		p[a] = b;
 }
 
-graphE getGraphE(matrix_t &matrix, const int n)
-{
-	graphE g;
-	for (int i = 0; i < n; i++)
-		for (int j = i; j < n; j++)
-		{
-			if(matrix[i][j] == 0)
-				continue;
-
-			g.emplace_back(matrix[i][j], make_pair(i, j));
-		}
-
-	return g;
-}
-
 matrix_t getMatrix(const vector <pair<int, pair<int, int>>> &graph, int n)
 {
 	int** matrix = new int*[n];
