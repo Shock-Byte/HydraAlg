@@ -17,4 +17,8 @@
   <ItemGroup>
     <ResourceCompile Include="HydraAlg.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="html1.htm" />
+    <None Include="rt_rcdat.bin" />
+  </ItemGroup>
 </Project>

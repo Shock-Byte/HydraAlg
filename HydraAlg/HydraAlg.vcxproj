@@ -147,6 +147,12 @@
   <ItemGroup>
     <ResourceCompile Include="HydraAlg.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="html1.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="rt_rcdat.bin" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
